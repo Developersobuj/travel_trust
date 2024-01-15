@@ -217,6 +217,12 @@ header {
     border: 1px solid green;
 }
 
+/* choose us section style */
+#choose_us .section_header {
+    padding: 0px 263px;
+    text-align: center;
+}
+
 
 
 
