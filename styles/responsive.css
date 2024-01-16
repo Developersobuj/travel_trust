@@ -80,44 +80,13 @@
         /* border: 1px solid red; */
     }
 
-    /* .image_container .divOne,
-    .image_container .divTwo,
-    .image_container .divThree {
-        grid-template-columns: repeat(1, 1fr);
-        width: 100%;
-    }
 
-    .image_container .divOne>.maldives,
-    .image_container .divThree>.bandharban {
-        width: 100%;
-    } */
-    /* #chooseDestination .header {
-        padding: 0px 10px;
-    }
-
-    .image_container>.divOne {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .image_container>.divTwo {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .image_container>.divTwo div img {
-        width: 100%;
-
-    } */
 
     #chooseDestination .header {
         padding: 0px 10px;
     }
 
-    /* .image_container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(12, 1fr);
-        gap: 24px;
-    } */
+
 
     .image_container .maldives,
     .image_container .indonisia,
@@ -128,6 +97,17 @@
     .image_container .bandharban {
         grid-column: 1/span 12;
         /* border: 1px solid red; */
+    }
+
+    .image_container .bangladesh>p {
+        margin-top: 20%;
+    }
+
+    /* team member */
+    .teamMember {
+
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
     }
 
 
