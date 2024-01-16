@@ -389,6 +389,11 @@ header {
 
 .team_text {
     text-align: center;
+    padding-bottom: 20px;
+}
+
+.team_text h2 {
+    padding: 10px 0px;
 }
 
 .social_icon {
