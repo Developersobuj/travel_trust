@@ -10,7 +10,7 @@
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: 0px 135px;
 }
 
@@ -72,7 +72,7 @@ header {
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
@@ -138,7 +138,7 @@ header {
 .inputDiv {
     display: flex;
     margin: 0% 15%;
-    /* border: 1px solid white; */
+    /* border: 1px solid  ite; */
     gap: 20px;
     padding: 16px;
     border-radius: 8px;
@@ -209,12 +209,12 @@ header {
 
 .image_container .maldives {
     grid-column: 1 /span 6;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .image_container .indonisia {
     grid-column: 7/span 6;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .image_container .srilanka {
@@ -273,7 +273,7 @@ header {
 .text_container,
 .populars_tour_img {
     width: calc(100% - 50px /2);
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 /* choose us section style */
@@ -293,7 +293,7 @@ header {
 
 .card_div {
     margin-top: 48px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     gap: 24px 24px;
     flex-wrap: wrap;
@@ -304,7 +304,7 @@ header {
 
 .card_div>.card {
     padding: 32px 55px 32px 32px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: calc((100% - 24px)/2);
     border-radius: 16px;
     /* border: 1px solid rgba(251, 181, 99, 0.20); */
@@ -325,6 +325,9 @@ header {
 }
 
 .card_div .hotel {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+
+
     background: rgba(251, 181, 99, 0.05);
 }
 
@@ -351,7 +354,7 @@ header {
 #simple_perfect_place .place_text,
 #simple_perfect_place .vedio_div {
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 424px;
 
 }
@@ -444,6 +447,7 @@ header {
 
 footer {
     background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
 }
 
 footer>div {
