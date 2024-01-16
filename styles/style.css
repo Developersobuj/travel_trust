@@ -273,7 +273,9 @@ header {
     margin-top: 100px;
 }
 
-.text_container {}
+.text_container div>ul li {
+    padding: 10px 0px;
+}
 
 .text_container>div {
     padding-left: 20px;

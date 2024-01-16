@@ -86,7 +86,13 @@
         padding: 0px 10px;
     }
 
+    .imageDiv>#discount_div {
+        background: #FF5400;
+        width: 50%;
 
+        left: 50%;
+        bottom: 18%;
+    }
 
     .image_container .maldives,
     .image_container .indonisia,
