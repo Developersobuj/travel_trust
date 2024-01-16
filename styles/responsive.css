@@ -64,7 +64,8 @@
     }
 
     .card_div,
-    #simple_perfect_place {
+    #simple_perfect_place,
+    #newsletter {
         flex-direction: column;
     }
 
@@ -78,5 +79,57 @@
         width: 100%;
         /* border: 1px solid red; */
     }
+
+    /* .image_container .divOne,
+    .image_container .divTwo,
+    .image_container .divThree {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .image_container .divOne>.maldives,
+    .image_container .divThree>.bandharban {
+        width: 100%;
+    } */
+    /* #chooseDestination .header {
+        padding: 0px 10px;
+    }
+
+    .image_container>.divOne {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .image_container>.divTwo {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .image_container>.divTwo div img {
+        width: 100%;
+
+    } */
+
+    #chooseDestination .header {
+        padding: 0px 10px;
+    }
+
+    /* .image_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        gap: 24px;
+    } */
+
+    .image_container .maldives,
+    .image_container .indonisia,
+    .image_container .srilanka,
+    .image_container .northAmerica,
+    .image_container .kashmir,
+    .image_container .bangladesh,
+    .image_container .bandharban {
+        grid-column: 1/span 12;
+        /* border: 1px solid red; */
+    }
+
+
 
 }

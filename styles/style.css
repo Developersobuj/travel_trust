@@ -38,7 +38,7 @@ a {
     padding: 14px 35px;
     text-align: center;
     border-radius: 8px;
-    background: #FF5400;
+    background: #FF5400 !important;
     color: #fff;
     font-weight: 800;
     font-size: 20p1.1rem;
@@ -186,6 +186,161 @@ header {
 
 }
 
+/* chooser our destination */
+#chooseDestination {
+    margin-top: 100px;
+}
+
+#chooseDestination .header {
+    padding: 0px 263px;
+    text-align: center;
+}
+
+/* 
+.image_container .divOne,
+.image_container .divTwo,
+.image_container .divThree {
+    margin-top: 24px;
+}
+
+.image_container .divOne {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.image_container .divOne>.maldives {
+    background-image: url('../Images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    
+    width: 573px;
+}
+
+.image_container .divOne>.indonisia {
+    background-image: url('../Images/Rectangle\ 8.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+  
+}
+
+.image_container .divTwo {
+    display: grid;
+    grid-template-columns: 374px 474px 374px;
+    gap: 24px;
+}
+
+.image_container .divTwo>.srilanka {
+    background-image: url('../Images/Rectangle\ 6.png');
+    height: 286px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image_container .divTwo>.northAmerica {
+    background-image: url('../Images/Rectangle\ 7.png');
+    height: 286px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image_container .divTwo>.kashmir {
+    background-image: url('../Images/Rectangle\ 9.png');
+    height: 286px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image_container .divThree {
+    display: grid;
+    grid-template-columns: 473px 673px;
+    gap: 24px;
+}
+
+.image_container .divThree>.bangladesh {
+    background-image: url('../Images/Rectangle\ 11.png');
+    height: 286px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image_container .divThree>.bandharban {
+    background-image: url('../Images/Rectangle\ 10.png');
+    height: 286px;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+/* .image_container>.divOne {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.image_container>.divOne div img {
+    width: 100%;
+}
+
+.image_container>.divTwo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.image_container>.divTwo div {
+    width: 100%;
+    height: 286px;
+} */
+
+.image_container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+}
+
+
+
+.image_container .maldives {
+    grid-column: 1 /span 6;
+    border: 1px solid red;
+}
+
+.image_container .indonisia {
+    grid-column: 7/span 6;
+    border: 1px solid red;
+}
+
+.image_container .srilanka {
+    grid-column: 1 /span 3;
+}
+
+.image_container .northAmerica {
+    grid-column: 4 /span 6;
+}
+
+.image_container .kashmir {
+    grid-column: 10 /span 3;
+}
+
+.image_container .bangladesh {
+    grid-column: 1 /span 5;
+}
+
+.image_container .bandharban {
+    grid-column: 6 /span 7;
+}
+
+
+.image_container>div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 /* our popular tours style started */
 #popular_tours {
     display: flex;
@@ -218,12 +373,22 @@ header {
 }
 
 /* choose us section style */
+#choose_us {
+    margin-top: 100px;
+}
+
 #choose_us .section_header {
     padding: 0px 263px;
     text-align: center;
+
+}
+
+#choose_us .section_header>p {
+    line-height: 24px;
 }
 
 .card_div {
+    margin-top: 48px;
     border: 2px solid blue;
     display: flex;
     gap: 24px 24px;
@@ -299,3 +464,69 @@ header {
 /* #simple_perfect_place:where(.place_text, .vedio_div) {
     border: 1px solid red
 } */
+
+/* newsletter section style  */
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 100px;
+}
+
+.signUP {
+    border: 1px solid #FF5400;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.signUP>div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.signUP div>input {
+    width: 100%;
+    padding: 16px;
+    /* height: 52px; */
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+}
+
+.imageDiv {
+    position: relative;
+}
+
+.imageDiv>img {
+    width: 100%;
+    height: 100%;
+}
+
+.imageDiv>#discount_div {
+    /* border-radius: 16px; */
+    background: #FF5400;
+    width: 45%;
+    text-align: center;
+    border-radius: 16px;
+    padding: 20px;
+    position: absolute;
+    transform: rotate(-30deg);
+    left: 55%;
+    bottom: 15%;
+}
+
+#discount_div p {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+#discount_div>h3 {
+    color: #FFF;
+    /* font-family: Mulish; */
+    font-size: 2rem;
+    /* font-style: normal; */
+    font-weight: 800;
+    /* line-height: normal; */
+}
